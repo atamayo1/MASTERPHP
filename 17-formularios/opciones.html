@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Formularios PHP y HTML</title>
+</head>
+<body>
+<h1>Formulario</h1>
+<form action="" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre:</label>
+    <p><input type="text" name="nombre" id="nombre" pattern="[A-Z a-z]+" placeholder="Escribe tu nombre"></p>
+
+    <label for="apellido">Apellido:</label>
+    <p><input type="text" name="apellido" id="apellido" pattern="[A-Z a-z]+" placeholder="Escribe tu apellido"></p>
+
+    <label for="boton">Botón:</label>
+    <p><input type="button" name="boton" id="boton" value="Click aquí"></p>
+
+    <label>Sexo:</label>
+    <p>
+        <label for="man">Hombre:</label> <input type="checkbox" name="sexo" id="man" value="hombre">
+        <label for="woman">Mujer:</label> <input type="checkbox" name="sexo" id="woman" value="mujer">
+    </p>
+
+    <label for="color">Color:</label>
+    <p><input type="color" name="color" id="color"></p>
+
+    <label for="fecha">Fecha:</label>
+    <p><input type="date" name="fecha" id="fecha"></p>
+
+    <label for="correo">Correo:</label>
+    <p><input type="email" name="correo" id="correo"></p>
+
+    <label for="archivo">Archivo:</label>
+    <p><input type="file" name="archivo" multiple="multiple" id="archivo"></p>
+
+    <label for="numero">Numero:</label>
+    <p><input type="number" name="numero" id="numero"></p>
+
+    <label for="contrasena">Contraseña:</label>
+    <p><input type="password" name="contrasena" id="contrasena"></p>
+
+    <label>Continente:</label>
+    <p>
+        <label for="america-del-sur">America del Sur:</label> <input type="radio" name="continente" id="america-del-sur" value="America del Sur">
+        <label for="europa">Europa:</label> <input type="radio" name="continente" id="europa" value="Europa">
+        <label for="asia">Asia:</label> <input type="radio" name="continente" id="asia" value="Asia">
+    </p>
+
+    <label for="web">Pagina web:</label>
+    <p><input type="url" name="web" id="web"></p>
+
+    <label for="peliculas">Peliculas:</label>
+    <select name="peliculas" id="peliculas">
+        <option value="spiderman">Spiderman</option>
+        <option value="batman">Batman</option>
+        <option value="thor">Thor</option>
+        <option value="superman">Super man</option>
+    </select>
+    <br>
+
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
