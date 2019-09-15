@@ -1,5 +1,4 @@
 <?php
-
 /* 
 Escribir un script que nos muestre todos los numeros pares que hay de 1 al 100
 */
@@ -10,5 +9,4 @@ for($numero = 1; $numero <= 100; $numero++){
         echo "$numero </br>";
     }
 }
-
 ?>
